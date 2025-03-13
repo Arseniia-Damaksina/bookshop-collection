@@ -181,3 +181,36 @@ aside ul li {
   color: wheat;
   font-weight: bold;
 }
+
+@media (max-width: 1024px) {
+  header {
+    font-size: 40px;
+  }
+
+  .header__content {
+    flex-wrap: wrap;
+  }
+
+  nav {
+    justify-content: flex-start;
+    font-size: 18px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  aside ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .books__container {
+    justify-content: center;
+  }
+}
