@@ -90,7 +90,20 @@ aside {
   align-items: center;
   width: 12%;
   height: 100%;
-  background-color: bisque;
+  margin-top: 15px;
+}
+
+aside ul {
+  list-style: none;
+  cursor: pointer;
+}
+
+aside ul li {
+  margin: 0 10px 5px 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 20px;
 }
 
 .books__container {
@@ -158,5 +171,15 @@ aside {
 }
 
 .book__info-icon i {
+  color: rgb(182, 21, 21);
+}
+
+.book__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book__liked-color {
   color: rgb(182, 21, 21);
 }

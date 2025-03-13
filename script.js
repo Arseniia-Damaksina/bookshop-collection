@@ -24,7 +24,10 @@ const displayBooks = (books) => {
           </div>
           <div>${book.genres.join(", ")}</div>
       </div>
-      <button>Buy now</button>
+      <div class="book__button">
+        <button>Buy now</button>
+        <i class="material-icons">favorite</i>
+      </div>
     `;
 
     booksContainer.appendChild(bookElement);
