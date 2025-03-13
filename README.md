@@ -1,7 +1,7 @@
 # BeCode Charleroi 2025
 
 ## BookShop Collection
-[Preview](http://htmlpreview.github.io/?https://github.com/Arseniia-Damaksina/bookshop-collection/blob/main/index.html)
+[Preview](https://arseniia-damaksina.github.io/bookshop-collection/)
 
 ### Project Overview
 The BookShop Collection is a web application designed to showcase a list of books. Users can browse through the collection, manage their favorite titles and delete the books.
