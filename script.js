@@ -18,7 +18,9 @@ const displayBooks = (books) => {
                   <h3>${book.author}</h3>
                   <div class="price">$${book.price.toFixed(2)}</div>
               </div>
-              <div class="book__info-icon">Icon</div>
+              <div class="book__info-icon">
+                <i class="material-icons">delete</i>
+              </div>
           </div>
           <div>${book.genres.join(", ")}</div>
       </div>
