@@ -1,5 +1,6 @@
 const books = [
   {
+    id: 1,
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
     description:
@@ -8,8 +9,10 @@ const books = [
     genres: ["Literary Fiction", "Coming-of-age Fiction"],
     imageUrl:
       "https://m.media-amazon.com/images/I/81gepf1eMqL._AC_UF1000,1000_QL80_.jpg",
+    isFavorite: false,
   },
   {
+    id: 2,
     title: "1984",
     author: "George Orwell",
     description:
@@ -18,8 +21,10 @@ const books = [
     genres: ["Dystopian Fiction", "Science Fiction"],
     imageUrl:
       "https://cdn.kobo.com/book-images/c9472126-7f96-402d-ba57-5ba4c0f4b238/1200/1200/False/nineteen-eighty-four-1984-george.jpg",
+    isFavorite: false,
   },
   {
+    id: 3,
     title: "Pride and Prejudice",
     author: "Jane Austen",
     description:
@@ -28,8 +33,10 @@ const books = [
     genres: ["Romance", "Social Satire"],
     imageUrl:
       "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg",
+    isFavorite: false,
   },
   {
+    id: 4,
     title: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
     description:
@@ -37,8 +44,10 @@ const books = [
     price: 11.0,
     genres: ["Jazz Age Fiction", "Tragedy"],
     imageUrl: "https://images.booksense.com/images/722/425/9781609425722.jpg",
+    isFavorite: false,
   },
   {
+    id: 5,
     title: "One Hundred Years of Solitude",
     author: "Gabriel García Márquez",
     description:
@@ -47,8 +56,10 @@ const books = [
     genres: ["Magic Realism", "Historical Fiction"],
     imageUrl:
       "https://m.media-amazon.com/images/I/71IWwBoDNsL._AC_UF894,1000_QL80_.jpg",
+    isFavorite: false,
   },
   {
+    id: 6,
     title: "The Lord of the Rings",
     author: "J.R.R. Tolkien",
     description:
@@ -57,8 +68,10 @@ const books = [
     genres: ["High Fantasy", "Epic Fiction"],
     imageUrl:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33.jpg",
+    isFavorite: false,
   },
   {
+    id: 7,
     title: "Don Quixote",
     author: "Miguel de Cervantes",
     description:
@@ -67,8 +80,10 @@ const books = [
     genres: ["Satire", "Parody", "Picaresque"],
     imageUrl:
       "https://m.media-amazon.com/images/I/61NlxaWjCYL._AC_UF1000,1000_QL80_.jpg",
+    isFavorite: false,
   },
   {
+    id: 8,
     title: "Moby-Dick",
     author: "Herman Melville",
     description:
@@ -77,8 +92,10 @@ const books = [
     genres: ["Adventure Fiction", "Sea Story"],
     imageUrl:
       "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471137235/moby-dick-9781471137235_hr.jpg",
+    isFavorite: false,
   },
   {
+    id: 9,
     title: "The Alchemist",
     author: "Paulo Coelho",
     description:
@@ -86,8 +103,10 @@ const books = [
     price: 19.0,
     genres: ["Fable", "Quest", "Adventure Fiction"],
     imageUrl: "https://m.media-amazon.com/images/I/51BBCrLdH6L.jpg",
+    isFavorite: false,
   },
   {
+    id: 10,
     title: "The Catcher in the Rye",
     author: "J.D. Salinger",
     description:
@@ -96,8 +115,10 @@ const books = [
     genres: ["Realistic Fiction", "Coming-of-age Fiction"],
     imageUrl:
       "https://thethinksync.com/wp-content/uploads/2021/09/thecatcherintherye.jpg",
+    isFavorite: false,
   },
   {
+    id: 11,
     title: "Brave New World",
     author: "Aldous Huxley",
     description:
@@ -106,8 +127,10 @@ const books = [
     genres: ["Dystopian Fiction", "Science Fiction"],
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKe8L9sgRmUCFKiH2yPwe-ZZG8wr_jtx7m_Q&s",
+    isFavorite: false,
   },
   {
+    id: 12,
     title: "The Adventures of Huckleberry Finn",
     author: "Mark Twain",
     description:
@@ -116,6 +139,7 @@ const books = [
     genres: ["Adventure Fiction", "Satire"],
     imageUrl:
       "https://cdn.kobo.com/book-images/e5009fa4-1fa5-4966-8831-39a94ed28ed6/1200/1200/False/adventures-of-huckleberry-finn-36.jpg",
+    isFavorite: false,
   },
 ];
 
